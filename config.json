@@ -1,0 +1,11 @@
+{
+	"pdfs_location": "C:\\Users\\VishalPattabiraman\\Documents\\PDF_Scrapper\\input\\", 
+	"pagestart": 0, 
+	"pageend": 0, 
+	"footer_regex": "(Application ID:+[\\w\\s\\n]+\\nCreated date:[\\w\\s:/\\n]+Page+[\\s]?[0-9]+)", 
+	"remove_headings": ["Activities Planned for/with Data", "Data Characteristics", "Section 3 – Data and Privacy", "Risk Questions", "Consent Questions", "Recruitment Questions", "People in dependent or unequal relationships", "Children and young people", "Participant Specific Questions", "Survey/Interview/Focus Group Research", "Method Specific Questions", "Setting of research", "Evaluations", "Restrictions", "Disclosure of interests","Benefit  Questions"], 
+	"paragraph_regex": "([QMP][\\s]?\\d[.\\d\\s]+[’\\w\\s/(),-]+[?.:])",
+	"para_correction_regex":"([QMP][\\s]?\\d[.\\d\\s]+)([’\\w\\s/(),-]+[?.:])",
+	"search_start":"Human Research Ethics Application[\\s\\n]+Application Management Information",
+	"search_end":"Section 4 – Attachments and Declarations"
+}

@@ -1,5 +1,5 @@
 
-# PDF_Scrapper version 1.0
+# PDF Scrapper
 
 Python based PDF file content extractor using Regular Expression
 
